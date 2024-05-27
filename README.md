@@ -1,17 +1,3 @@
-<h1 align=center>Personal Website</h1>
-
-<p align=center>
-    An extremely clean UI, simple-to-use, and minimalist personal website 
-    <br> for portfolio display, project documentation, and blogging. 
-</p>
-
-![Alt text](https://baguswinaksono.my.id/assets/img/personal.png)
-
-## Installation
-
-### Local
-To set up the project locally, follow these steps:
-
 1. Clone the repository :
     ```sh
     git clone https://github.com/baguswijaksono/personal-web.git
