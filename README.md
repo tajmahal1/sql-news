@@ -1,9 +1,4 @@
-1. Clone the repository :
-    ```sh
-    git clone https://github.com/baguswijaksono/personal-web.git
-    cd personal-web
-    ```
-2. Edit the dbconfig configuration on line:
+1. Edit the dbconfig configuration on line:
 
     ```php
     public $servername = "localhost";
@@ -11,9 +6,9 @@
     public $password = ".";
     public $dbname = "portfolio";
     ```
-3. After updating the database configuration, initiate the database import 
-4. Go to https://phppasswordhash.com/
-5. Generate a hashed password using PASSWORD_DEFAULT and place it in the variable $hashed_password within the getHashedPassword function.
+2. After updating the database configuration, initiate the database import 
+3. Go to https://phppasswordhash.com/
+4. Generate a hashed password using PASSWORD_DEFAULT and place it in the variable $hashed_password within the getHashedPassword function.
    on dbconfig.php 
    ```php
     public function getHashedPassword()
@@ -22,7 +17,7 @@
         return $hashed_password;
     }
    ```
-6. Start the server :
+5. Start the server :
    To initiate the server, execute the following command in your terminal:
     ```sh
     php -S localhost:8000
